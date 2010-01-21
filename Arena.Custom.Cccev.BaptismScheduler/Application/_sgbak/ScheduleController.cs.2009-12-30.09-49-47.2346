@@ -1,0 +1,164 @@
+﻿/**********************************************************************
+* Description:  Defines application logic for Baptism Scheduler
+* Created By:   Jason Offutt @ Central Christian Church of the East Valley
+* Date Created: 12/10/2009
+*
+* $Workfile: ScheduleController.cs $
+* $Revision: 8 $
+* $Header: /trunk/Arena.Custom.Cccev/Arena.Custom.Cccev.BaptismScheduler/Controllers/ScheduleController.cs   8   2009-12-29 10:50:35-07:00   JasonO $
+*
+* $Log: /trunk/Arena.Custom.Cccev/Arena.Custom.Cccev.BaptismScheduler/Controllers/ScheduleController.cs $
+*  
+*  Revision: 8   Date: 2009-12-29 17:50:35Z   User: JasonO 
+*  
+*  Revision: 7   Date: 2009-12-28 15:14:52Z   User: JasonO 
+*  Improving validation logic 
+*  
+*  Revision: 6   Date: 2009-12-23 20:52:24Z   User: JasonO 
+*  
+*  Revision: 5   Date: 2009-12-22 18:07:09Z   User: JasonO 
+*  
+**********************************************************************/
+
+using System;
+using System.Collections.Generic;
+using System.Data.Linq;
+using System.Linq;
+using Arena.Core;
+using Arena.Custom.Cccev.BaptismScheduler.Data;
+using Arena.Custom.Cccev.BaptismScheduler.Entities;
+using Arena.Custom.Cccev.BaptismScheduler.Util;
+using Arena.Custom.Cccev.DataUtils;
+using Arena.Custom.Cccev.FrameworkUtils.BLL;
+
+namespace Arena.Custom.Cccev.BaptismScheduler.Controllers
+{
+    public class ScheduleController
+    {
+        private const string SESSION_KEY_FORMAT_STRING = "Cccev.Bsch.Schedule_{0}";
+
+        private static ScheduleBll GetBusinessObject(int scheduleID)
+        {
+            var cache = CacheFactory.GetCache(CacheHelper.GetCacheType());
+
+            if (cache.Get(string.Format(SESSION_KEY_FORMAT_STRING, scheduleID)) != null)
+            {
+                return cache.Get(string.Format(SESSION_KEY_FORMAT_STRING, scheduleID)) as ScheduleBll;
+            }
+
+            return new ScheduleBll(scheduleID);
+        }
+
+        private static void SaveBusinessObject(CentralBusinessObject<Schedule, DataContext> bll)
+        {
+            var cache = CacheFactory.GetCache(CacheHelper.GetCacheType());
+            cache.Insert(string.Format(SESSION_KEY_FORMAT_STRING, bll.Entity.ScheduleID), bll);
+        }
+
+        public void CreateSchedule(Lookup campus, string name, string description, string userID)
+        {
+            Schedule schedule = new Schedule
+            {
+                Campus = campus,
+                Name = name,
+                Description = description
+            };
+
+            ScheduleBll bll = new ScheduleBll();
+            bll.Entity = schedule;
+            bll.SaveSchedule(userID);
+            SaveBusinessObject(bll);
+        }
+
+        public void UpdateSchedule(int scheduleID, Lookup campus, string name, string description, string userID)
+        {
+            ScheduleBll bll = new ScheduleBll(scheduleID);
+            Schedule schedule = bll.Entity;
+            schedule.Campus = campus;
+            schedule.Name = name;
+            schedule.Description = description;
+            bll.SaveSchedule(userID);
+        }
+
+        public Schedule GetSchedule(int id)
+        {
+            ScheduleBll bll = GetBusinessObject(id);
+            return bll.Entity;
+        }
+
+        public IEnumerable<Schedule> GetAllSchedules()
+        {
+            var scheduleRepository = RepositoryFactory.GetRepository<IScheduleRepository>();
+            return scheduleRepository.GetAllSchedules();
+        }
+
+        public void DeleteSchedule(Schedule schedule)
+        {
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.RemoveSchedule();
+        }
+
+        public void CreateScheduleItem(Schedule schedule, DateTime date, Person person, List<Baptizer> baptizers, 
+            Person approvedBy, bool isConfirmed, string userID)
+        {
+            ScheduleItem scheduleItem = new ScheduleItem
+            {
+                ScheduleItemDate = date,
+                ScheduleID = schedule.ScheduleID,
+                Person = person,
+                ApprovedBy = approvedBy,
+                IsConfirmed = isConfirmed
+            };
+
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.CreateScheduleItem(scheduleItem, baptizers, userID);
+        }
+
+        public IEnumerable<ScheduleItem> GetScheduleItemsByDateRange(Schedule schedule, DateRange dateRange)
+        {
+            return (from i in schedule.ScheduleItems
+                    where i.ScheduleItemDate.Date >= dateRange.Start.Date &&
+                          i.ScheduleItemDate.Date <= dateRange.End.Date
+                    orderby i.ScheduleItemDate ascending
+                    select i).ToList();
+        }
+
+        public void UpdateScheduleItem(Schedule schedule, int scheduleItemID, DateTime date, Person person,
+            List<Baptizer> baptizers, Person approvedBy, bool isConfirmed, string userID)
+        {
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.UpdateScheduleItem(scheduleItemID, date, person, baptizers, approvedBy, isConfirmed, userID);
+        }
+
+        public void DeleteScheduleItem(Schedule schedule, int scheduleItemID)
+        {
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.RemoveScheduleItem(scheduleItemID);
+        }
+
+        public void CreateBlackoutDate(Schedule schedule, string description, DateTime date, string userID)
+        {
+            BlackoutDate blackoutDate = new BlackoutDate
+            {
+                ScheduleID = schedule.ScheduleID,
+                Description = description,
+                Date = date
+            };
+
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.CreateBlackoutDate(blackoutDate, userID);
+        }
+
+        public void UpdateBlackoutDate(Schedule schedule, int blackoutDateID, string description, DateTime date, string userID)
+        {
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.UpdateBlackoutDate(blackoutDateID, description, date, userID);
+        }
+
+        public void DeleteBlackoutDate(Schedule schedule, int blackoutDateID)
+        {
+            ScheduleBll bll = GetBusinessObject(schedule.ScheduleID);
+            bll.RemoveBlackoutDate(blackoutDateID);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.BaptismScheduler.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.BaptismScheduler.pdb
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\obj\Debug\ResolveAssemblyReference.cache
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\obj\Debug\Arena.Custom.Cccev.BaptismScheduler.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\obj\Debug\Arena.Custom.Cccev.BaptismScheduler.pdb
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.DataUtils.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.DataUtils.pdb
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.FrameworkUtils.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\AjaxControlToolkit.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\ComponentArt.Web.UI.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Portal.UI.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Aspose.Words.dll
+C:\Arena Trunk\trunk\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\bin\Debug\Arena.Custom.Cccev.FrameworkUtils.pdb

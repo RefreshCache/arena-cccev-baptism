@@ -1,0 +1,677 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DD324CB5-29A7-41A2-80A6-FDC02B6D976C/d:Application/f:ScheduleController.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Util/f:RepositoryFactory.cs" caret="1053" fromTop="26" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:ConfigurationBase.cs" caret="1008" fromTop="24" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDocumentPicker.cs" caret="687" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDateTextBox.cs" caret="678" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicTextBox.cs" caret="700" fromTop="15" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicCheckBox.cs" caret="703" fromTop="15" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:ArenaPersonFactory.cs" caret="885" fromTop="19" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDropDownList.cs" caret="1527" fromTop="42" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonUtils.cs" caret="1728" fromTop="47" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheFactory.cs" caret="1709" fromTop="46" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheHelper.cs" caret="2724" fromTop="57" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Entity/f:AppLog.cs" caret="3591" fromTop="7" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Entity/f:CentralObjectBase.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Data/f:RepositoryHelper.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Data/f:ArenaDataContext.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonController.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CentralControllerBase.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:SessionCache.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IPersonFactory.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IModifiable.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IDynamicValue.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:ICachable.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:HttpCache.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:DictionaryCache.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:ArenaConstants.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:Enums.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:SystemGuids.cs" caret="0" fromTop="0" />
+      <File id="DD324CB5-29A7-41A2-80A6-FDC02B6D976C/d:Entities/f:ScheduleItem.cs" caret="1266" fromTop="0" />
+      <File id="1FC4F55C-C059-4EAF-B153-0D19FA1E7DF1/d:Fakes/f:FakePersonFactory.cs" caret="1400" fromTop="37" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheFactory.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:Enums.cs" caret="534" fromTop="12" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:Enums.cs" caret="375" fromTop="2" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:FrameworkConstants/f:Enums.cs" caret="235" fromTop="3" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheFactory.cs" caret="1138" fromTop="26" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Data/f:RepositoryHelper.cs" caret="0" fromTop="0" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Data/f:RepositoryHelper.cs" caret="869" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IPersonFactory.cs" caret="788" fromTop="16" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IModifiable.cs" caret="855" fromTop="19" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:IDynamicValue.cs" caret="682" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:Interfaces/f:ICachable.cs" caret="867" fromTop="19" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonController.cs" caret="164" fromTop="3" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonController.cs" caret="227" fromTop="3" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonController.cs" caret="1172" fromTop="37" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDateTextBox.cs" caret="678" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDocumentPicker.cs" caret="687" fromTop="14" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicTextBox.cs" caret="700" fromTop="15" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicCheckBox.cs" caret="703" fromTop="15" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:ArenaPersonFactory.cs" caret="885" fromTop="19" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:UI/f:DynamicDropDownList.cs" caret="1527" fromTop="20" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:PersonUtils.cs" caret="930" fromTop="21" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheFactory.cs" caret="1058" fromTop="22" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:SessionCache.cs" caret="1088" fromTop="22" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:DictionaryCache.cs" caret="1277" fromTop="22" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CacheHelper.cs" caret="1637" fromTop="24" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:HttpCache.cs" caret="1595" fromTop="38" />
+      <File id="5E4542EB-C79E-4F07-B3F6-8200B234FDC8/d:BLL/f:CentralControllerBase.cs" caret="0" fromTop="0" />
+      <File id="DD324CB5-29A7-41A2-80A6-FDC02B6D976C/d:Entities/f:ScheduleItem.cs" caret="9141" fromTop="23" />
+      <File id="DD324CB5-29A7-41A2-80A6-FDC02B6D976C/d:Entities/f:ScheduleItem.cs" caret="1266" fromTop="0" />
+      <File id="1FC4F55C-C059-4EAF-B153-0D19FA1E7DF1/d:Fakes/f:FakePersonFactory.cs" caret="1400" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="7" />
+      <Item value="NUnit.Framework" priority="2" />
+      <Item value="public" priority="172" />
+      <Item value="IScheduleItemRepository" priority="9" />
+      <Item value="ScheduleItemController" priority="5" />
+      <Item value="string" priority="68" />
+      <Item value="private" priority="50" />
+      <Item value="readonly" priority="4" />
+      <Item value="this" priority="16" />
+      <Item value="repository" priority="62" />
+      <Item value="new" priority="92" />
+      <Item value="ArenaScheduleItemRepository" priority="2" />
+      <Item value="IScheduleRepository" priority="14" />
+      <Item value="ScheduleController" priority="3" />
+      <Item value="ArenaScheduleRepository" priority="0" />
+      <Item value="void" priority="84" />
+      <Item value="MockScheduleRepository" priority="2" />
+      <Item value="Assert" priority="56" />
+      <Item value="items" priority="20" />
+      <Item value="System" priority="5" />
+      <Item value="Linq" priority="0" />
+      <Item value="ScheduleItemTests" priority="0" />
+      <Item value="List" priority="16" />
+      <Item value="ScheduleItem" priority="60" />
+      <Item value="List&lt;ScheduleItem&gt;" priority="3" />
+      <Item value="return" priority="101" />
+      <Item value="MockScheduleItemRepository" priority="3" />
+      <Item value="var" priority="39" />
+      <Item value="IEnumerable" priority="5" />
+      <Item value="i" priority="24" />
+      <Item value="time" priority="0" />
+      <Item value="ScheduleItemDate" priority="7" />
+      <Item value="DateTime" priority="53" />
+      <Item value="int" priority="70" />
+      <Item value="id" priority="6" />
+      <Item value="item" priority="88" />
+      <Item value="Data" priority="0" />
+      <Item value="Mapping" priority="0" />
+      <Item value="scheduleItemID" priority="10" />
+      <Item value="value" priority="17" />
+      <Item value="Column" priority="34" />
+      <Item value="Name" priority="40" />
+      <Item value="IsPrimaryKey" priority="3" />
+      <Item value="true" priority="24" />
+      <Item value="Constants" priority="53" />
+      <Item value="personID" priority="3" />
+      <Item value="if" priority="119" />
+      <Item value="Person" priority="28" />
+      <Item value="null" priority="28" />
+      <Item value="person" priority="14" />
+      <Item value="BaptizedByID" priority="7" />
+      <Item value="PersonID" priority="13" />
+      <Item value="baptizedBy" priority="7" />
+      <Item value="else" priority="14" />
+      <Item value="approvedBy" priority="13" />
+      <Item value="ApprovedByID" priority="15" />
+      <Item value="ConfirmedByID" priority="13" />
+      <Item value="confirmedBy" priority="6" />
+      <Item value="bool" priority="34" />
+      <Item value="IsConfirmed" priority="8" />
+      <Item value="false" priority="22" />
+      <Item value="DateConfirmed" priority="4" />
+      <Item value="DateApproved" priority="12" />
+      <Item value="CreatedBy" priority="6" />
+      <Item value="DateCreated" priority="7" />
+      <Item value="ModifiedBy" priority="6" />
+      <Item value="DateModified" priority="6" />
+      <Item value="IsDbGenerated" priority="3" />
+      <Item value="NewsStyleUriParser" priority="1" />
+      <Item value="isValid" priority="22" />
+      <Item value="Errors" priority="2" />
+      <Item value="Collections" priority="4" />
+      <Item value="Generic" priority="4" />
+      <Item value="errors" priority="29" />
+      <Item value="List&lt;string&gt;" priority="3" />
+      <Item value="BaptizedBy" priority="0" />
+      <Item value="Factories" priority="3" />
+      <Item value="ApprovedBy" priority="8" />
+      <Item value="result" priority="7" />
+      <Item value="class" priority="1" />
+      <Item value="ArenaDataContext" priority="3" />
+      <Item value="DBNull" priority="0" />
+      <Item value="table" priority="0" />
+      <Item value="db" priority="31" />
+      <Item value="from" priority="10" />
+      <Item value="select" priority="7" />
+      <Item value="where" priority="4" />
+      <Item value="ConfirmedBy" priority="3" />
+      <Item value="static" priority="12" />
+      <Item value="Assembly" priority="2" />
+      <Item value="repositoryPath" priority="3" />
+      <Item value="TypeFilter" priority="0" />
+      <Item value="assembly" priority="3" />
+      <Item value="type" priority="0" />
+      <Item value="Activator" priority="1" />
+      <Item value="typeof" priority="0" />
+      <Item value="IsValid" priority="3" />
+      <Item value="throw" priority="4" />
+      <Item value="ApplicationException" priority="7" />
+      <Item value="ScheduleItemID" priority="7" />
+      <Item value="userID" priority="36" />
+      <Item value="for" priority="3" />
+      <Item value="Schedule" priority="46" />
+      <Item value="count" priority="13" />
+      <Item value="FirstName" priority="2" />
+      <Item value="LastName" priority="2" />
+      <Item value="try" priority="7" />
+      <Item value="GetRepositoryPath" priority="2" />
+      <Item value="NullReferenceException" priority="0" />
+      <Item value="val" priority="0" />
+      <Item value="Lookup" priority="3" />
+      <Item value="CampusLuid" priority="5" />
+      <Item value="campus" priority="6" />
+      <Item value="const" priority="5" />
+      <Item value="SCHEDULE_KEY" priority="0" />
+      <Item value="GetScheduleItem" priority="1" />
+      <Item value="newItem" priority="12" />
+      <Item value="schedule" priority="93" />
+      <Item value="s" priority="5" />
+      <Item value="List&lt;Schedule&gt;" priority="0" />
+      <Item value="schedules" priority="19" />
+      <Item value="Date" priority="9" />
+      <Item value="Description" priority="7" />
+      <Item value="LookupID" priority="1" />
+      <Item value="LookupTypeID" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="Campus" priority="2" />
+      <Item value="GetDefaultLookup" priority="0" />
+      <Item value="ScheduleID" priority="13" />
+      <Item value="EntitySet" priority="2" />
+      <Item value="Association" priority="1" />
+      <Item value="Storage" priority="1" />
+      <Item value="OtherKey" priority="1" />
+      <Item value="BlackoutDate" priority="29" />
+      <Item value="BlackoutDates" priority="0" />
+      <Item value="scheduleID" priority="9" />
+      <Item value="TestFactories" priority="14" />
+      <Item value="EntitySet&lt;ScheduleItem&gt;" priority="0" />
+      <Item value="EntitySet&lt;BlackoutDate&gt;" priority="0" />
+      <Item value="foreach" priority="21" />
+      <Item value="in" priority="20" />
+      <Item value="newSchedule" priority="1" />
+      <Item value="blackoutDate" priority="49" />
+      <Item value="IBlackoutDateRepository" priority="10" />
+      <Item value="BLACKOUT_DATE_KEY" priority="0" />
+      <Item value="BlackoutDateController" priority="1" />
+      <Item value="BlackoutDateID" priority="2" />
+      <Item value="ArenaBlackoutDateRepository" priority="0" />
+      <Item value="b" priority="17" />
+      <Item value="blackoutDates" priority="10" />
+      <Item value="decimal" priority="0" />
+      <Item value="d" priority="2" />
+      <Item value="ArenaContext" priority="2" />
+      <Item value="PersonFactory" priority="0" />
+      <Item value="PersonUtils" priority="0" />
+      <Item value="IPersonFactory" priority="0" />
+      <Item value="factory" priority="0" />
+      <Item value="ConfigurationBase" priority="0" />
+      <Item value="GetConfigurationPath" priority="2" />
+      <Item value="SyncConfirmed" priority="1" />
+      <Item value="SyncApproved" priority="1" />
+      <Item value="IsApproved" priority="1" />
+      <Item value="date" priority="10" />
+      <Item value="RepositoryFactory" priority="14" />
+      <Item value="ex" priority="1" />
+      <Item value="ref" priority="0" />
+      <Item value="isApproved" priority="2" />
+      <Item value="hasDate" priority="3" />
+      <Item value="Baptizer" priority="27" />
+      <Item value="Baptizers" priority="2" />
+      <Item value="EntitySet&lt;Baptizer&gt;" priority="0" />
+      <Item value="hasPerson" priority="1" />
+      <Item value="GetDefaultPerson" priority="0" />
+      <Item value="name" priority="1" />
+      <Item value="description" priority="5" />
+      <Item value="CreateScheduleItem" priority="1" />
+      <Item value="GetSchedule" priority="1" />
+      <Item value="isConfirmed" priority="4" />
+      <Item value="baptizers" priority="19" />
+      <Item value="UpdateScheduleItem" priority="0" />
+      <Item value="blackoutDateID" priority="4" />
+      <Item value="BaptizerID" priority="2" />
+      <Item value="ArenaBaptizerRepository" priority="0" />
+      <Item value="IBaptizerRepository" priority="6" />
+      <Item value="BAPTIZER_KEY" priority="0" />
+      <Item value="baptizer" priority="29" />
+      <Item value="baptizerID" priority="2" />
+      <Item value="internal" priority="2" />
+      <Item value="ScheduleControllerTests" priority="1" />
+      <Item value="controller" priority="14" />
+      <Item value="List&lt;Baptizer&gt;" priority="3" />
+      <Item value="itemRepository" priority="12" />
+      <Item value="newDate" priority="0" />
+      <Item value="itemID" priority="0" />
+      <Item value="deletedItems" priority="6" />
+      <Item value="SyncAdded" priority="0" />
+      <Item value="SyncDeleted" priority="0" />
+      <Item value="si" priority="0" />
+      <Item value="let" priority="0" />
+      <Item value="exists" priority="3" />
+      <Item value="orphanedItems" priority="1" />
+      <Item value="MockBlackoutDateRepository" priority="1" />
+      <Item value="SyncDeletedBlackout" priority="0" />
+      <Item value="dateRepository" priority="1" />
+      <Item value="SyncAddedBlackout" priority="0" />
+      <Item value="newBlackoutDate" priority="0" />
+      <Item value="blackedOutDate" priority="1" />
+      <Item value="catch" priority="2" />
+      <Item value="Contains" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="baptizerRepository" priority="9" />
+      <Item value="MockBaptizerRepository" priority="0" />
+      <Item value="SyncAddedBaptizers" priority="0" />
+      <Item value="SyncDeletedBaptizers" priority="0" />
+      <Item value="orphanedBaptizers" priority="1" />
+      <Item value="otherPerson" priority="1" />
+      <Item value="firstPerson" priority="0" />
+      <Item value="CreateSchedule" priority="1" />
+      <Item value="BaptizerComparer" priority="1" />
+      <Item value="comparer" priority="2" />
+      <Item value="FakeDataContext" priority="0" />
+      <Item value="FakeBaptizerRepository" priority="0" />
+      <Item value="FakeBlackoutDateRepository" priority="0" />
+      <Item value="FakeScheduleItemRepository" priority="0" />
+      <Item value="dataContext" priority="3" />
+      <Item value="FakeScheduleRepository" priority="0" />
+      <Item value="ValidationException" priority="3" />
+      <Item value="Validate" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="IEqualityComparer" priority="0" />
+      <Item value="abstract" priority="1" />
+      <Item value="TEntity" priority="0" />
+      <Item value="TContext" priority="0" />
+      <Item value="ScheduleRepository" priority="1" />
+      <Item value="Context" priority="3" />
+      <Item value="RepositoryHelper" priority="0" />
+      <Item value="Entity" priority="17" />
+      <Item value="RegisterContext" priority="2" />
+      <Item value="blackoutDateRepository" priority="1" />
+      <Item value="scheduleItemRepository" priority="1" />
+      <Item value="scheduleRepository" priority="14" />
+      <Item value="ScheduleBLL" priority="22" />
+      <Item value="bll" priority="12" />
+      <Item value="scheduleItem" priority="11" />
+      <Item value="baptizersToRemove" priority="1" />
+      <Item value="RemoveBaptizer" priority="0" />
+      <Item value="SyncBaptizers" priority="0" />
+      <Item value="KeyHelper" priority="1" />
+      <Item value="DataContext" priority="1" />
+      <Item value="ScheduleDomainObject" priority="1" />
+      <Item value="entity" priority="0" />
+      <Item value="CacheManager" priority="1" />
+      <Item value="CACHE_PREFIX" priority="1" />
+      <Item value="interface" priority="0" />
+      <Item value="IBaptismRepository" priority="0" />
+      <Item value="Table" priority="2" />
+      <Item value="scheduleItems" priority="0" />
+      <Item value="AppCache" priority="1" />
+      <Item value="TimeSpan" priority="4" />
+      <Item value="CacheItemPriority" priority="0" />
+      <Item value="Cache" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="CacheHelper" priority="0" />
+      <Item value="double" priority="2" />
+      <Item value="GetConfigurationSetting" priority="0" />
+      <Item value="CACHE_TIME_TO_LIVE" priority="1" />
+      <Item value="setting" priority="0" />
+      <Item value="CACHE_TYPE_KEY" priority="0" />
+      <Item value="Util" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Controllers.ScheduleItemController">
+      <Item value="repository" priority="0" />
+      <Item value="CreateBaptizer" priority="0" />
+      <Item value="UpdateBaptizer" priority="0" />
+      <Item value="DeleteBaptizer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Controllers.ScheduleController">
+      <Item value="repository" priority="0" />
+      <Item value="CreateSchedule" priority="0" />
+      <Item value="UpdateSchedule" priority="1" />
+      <Item value="DeleteSchedule" priority="0" />
+      <Item value="CreateScheduleItem" priority="1" />
+      <Item value="UpdateScheduleItem" priority="1" />
+      <Item value="DeleteScheduleItem" priority="0" />
+      <Item value="CreateBlackoutDate" priority="0" />
+      <Item value="UpdateBlackoutDate" priority="0" />
+      <Item value="DelteBlackoutDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Greater" priority="8" />
+      <Item value="IsFalse" priority="7" />
+      <Item value="AreEqual" priority="16" />
+      <Item value="IsTrue" priority="10" />
+      <Item value="IsInstanceOf" priority="0" />
+      <Item value="IsNotNullOrEmpty" priority="0" />
+      <Item value="AreNotEqual" priority="8" />
+      <Item value="GreaterOrEqual" priority="2" />
+      <Item value="AreSame" priority="2" />
+      <Item value="Fail" priority="1" />
+      <Item value="AreNotSame" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count" priority="0" />
+      <Item value="SingleOrDefault" priority="0" />
+      <Item value="First" priority="1" />
+      <Item value="Last" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Date" priority="8" />
+      <Item value="AddDays" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="32" />
+      <Item value="MinValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="27" />
+      <Item value="Remove" priority="4" />
+      <Item value="Count" priority="6" />
+      <Item value="Clear" priority="2" />
+      <Item value="ToString" priority="0" />
+      <Item value="ToArray" priority="1" />
+      <Item value="Any" priority="3" />
+      <Item value="SingleOrDefault" priority="1" />
+      <Item value="Where" priority="0" />
+      <Item value="Concat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Entities.ScheduleItem">
+      <Item value="ScheduleItemID" priority="33" />
+      <Item value="repository" priority="1" />
+      <Item value="IsValid" priority="3" />
+      <Item value="Errors" priority="3" />
+      <Item value="ScheduleItemDate" priority="7" />
+      <Item value="Save" priority="4" />
+      <Item value="CreatedBy" priority="5" />
+      <Item value="ModifiedBy" priority="4" />
+      <Item value="Delete" priority="1" />
+      <Item value="Person" priority="4" />
+      <Item value="BaptizedBy" priority="1" />
+      <Item value="ApprovedBy" priority="4" />
+      <Item value="DateApproved" priority="1" />
+      <Item value="ConfirmedBy" priority="1" />
+      <Item value="DateConfirmed" priority="1" />
+      <Item value="DateCreated" priority="1" />
+      <Item value="DateModified" priority="2" />
+      <Item value="Baptizers" priority="20" />
+      <Item value="IsConfirmed" priority="0" />
+      <Item value="Update" priority="2" />
+      <Item value="SyncBaptizers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.DataUtils.Constants">
+      <Item value="NULL_DATE" priority="13" />
+      <Item value="NULL_INT" priority="13" />
+      <Item value="NULL_STRING" priority="10" />
+      <Item value="ZERO" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Core.Person">
+      <Item value="PersonID" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="3" />
+      <Item value="HasValue" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Data.IScheduleItemRepository">
+      <Item value="GetScheduleItem" priority="3" />
+      <Item value="GetAllScheduleItems" priority="0" />
+      <Item value="LoadScheduleItem" priority="0" />
+      <Item value="Save" priority="6" />
+      <Item value="Add" priority="0" />
+      <Item value="Exists" priority="3" />
+      <Item value="Delete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.BaptismScheduler.Tests.Util.Factories">
+      <Item value="GetDefaultPerson" priority="3" />
+      <Item value="GetScheduleItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Data.ArenaDataContext">
+      <Item value="GetTable" priority="15" />
+      <Item value="SubmitChanges" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="SingleOrDefault" priority="2" />
+      <Item value="InsertOnSubmit" priority="2" />
+      <Item value="DeleteOnSubmit" priority="3" />
+      <Item value="Any" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split" priority="2" />
+      <Item value="Trim" priority="3" />
+      <Item value="Contains" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="Load" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.BaptismScheduler.Util.RepositoryFactory">
+      <Item value="GetScheduleItemRepository" priority="7" />
+      <Item value="GetBlackoutDateRepository" priority="7" />
+      <Item value="GetScheduleRepository" priority="3" />
+      <Item value="GetBaptizerRepository" priority="2" />
+      <Item value="GetRepository" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Join" priority="3" />
+      <Item value="Format" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Core.ArenaContext">
+      <Item value="Current" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Core.ArenaContext">
+      <Item value="Organization" priority="0" />
+      <Item value="Person" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Organization.Organization">
+      <Item value="Settings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="Keys" priority="0" />
+      <Item value="AllKeys" priority="0" />
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Core.Lookup">
+      <Item value="LookupID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Entities.Schedule">
+      <Item value="ScheduleID" priority="18" />
+      <Item value="IsValid" priority="4" />
+      <Item value="Errors" priority="3" />
+      <Item value="Save" priority="4" />
+      <Item value="ScheduleItems" priority="22" />
+      <Item value="BlackoutDates" priority="17" />
+      <Item value="Update" priority="2" />
+      <Item value="Campus" priority="0" />
+      <Item value="Name" priority="3" />
+      <Item value="Description" priority="1" />
+      <Item value="CreatedBy" priority="1" />
+      <Item value="ModifiedBy" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Data.IScheduleRepository">
+      <Item value="Exists" priority="1" />
+      <Item value="Delete" priority="2" />
+      <Item value="GetAllSchedules" priority="4" />
+      <Item value="GetSchedule" priority="7" />
+      <Item value="Save" priority="19" />
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.EntitySet`1">
+      <Item value="Assign" priority="4" />
+      <Item value="Add" priority="6" />
+      <Item value="Count" priority="2" />
+      <Item value="Remove" priority="3" />
+      <Item value="First" priority="4" />
+      <Item value="SingleOrDefault" priority="1" />
+      <Item value="ToList" priority="0" />
+      <Item value="Any" priority="0" />
+      <Item value="Contains" priority="1" />
+      <Item value="All" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.BaptismScheduler.Tests.Util.TestFactories">
+      <Item value="GetSchedule" priority="1" />
+      <Item value="GetScheduleItem" priority="0" />
+      <Item value="GetBlackoutDate" priority="2" />
+      <Item value="GetDefaultPerson" priority="8" />
+      <Item value="GetBaptizer" priority="2" />
+      <Item value="GetDefaultLookup" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Controllers.BlackoutDateController">
+      <Item value="repository" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Data.IBlackoutDateRepository">
+      <Item value="Delete" priority="2" />
+      <Item value="GetAllBlackoutDates" priority="0" />
+      <Item value="GetBlackoutDate" priority="0" />
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.FrameworkUtils.Data.ArenaDataContext">
+      <Item value="GetTable" priority="8" />
+      <Item value="SubmitChanges" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Entities.BlackoutDate">
+      <Item value="Date" priority="10" />
+      <Item value="BlackoutDateID" priority="20" />
+      <Item value="IsValid" priority="3" />
+      <Item value="Save" priority="1" />
+      <Item value="Description" priority="2" />
+      <Item value="ModifiedBy" priority="2" />
+      <Item value="DateModified" priority="0" />
+      <Item value="Update" priority="3" />
+      <Item value="Errors" priority="0" />
+      <Item value="CreatedBy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.FrameworkUtils.Interfaces.IPersonFactory">
+      <Item value="GetCurrentPerson" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="TryParse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ApplicationException">
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.BaptismScheduler.Entities.Schedule">
+      <Item value="CheckDates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Entities.Baptizer">
+      <Item value="BaptizerID" priority="13" />
+      <Item value="Person" priority="4" />
+      <Item value="IsValid" priority="1" />
+      <Item value="Save" priority="1" />
+      <Item value="Errors" priority="0" />
+      <Item value="ScheduleItemID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Data.IBaptizerRepository">
+      <Item value="Exists" priority="2" />
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Tests.Mocks.MockScheduleItemRepository">
+      <Item value="AddScheduleItem" priority="0" />
+      <Item value="Exists" priority="1" />
+      <Item value="DeleteScheduleItem" priority="3" />
+      <Item value="Items" priority="1" />
+      <Item value="GetScheduleItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Tests.Mocks.MockBaptizerRepository">
+      <Item value="AddBaptizer" priority="0" />
+      <Item value="Baptizers" priority="0" />
+      <Item value="DeleteBaptizer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Util.BaptizerComparer">
+      <Item value="Equals" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.DataUtils.ValidationException">
+      <Item value="Errors" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.FrameworkUtils.Data.RepositoryHelper">
+      <Item value="GetDataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Arena.Custom.Cccev.BaptismScheduler.Controllers.ScheduleBLL">
+      <Item value="CreateSchedule" priority="0" />
+      <Item value="Entity" priority="2" />
+      <Item value="RemoveSchedule" priority="0" />
+      <Item value="CreateScheduleItem" priority="0" />
+      <Item value="UpdateScheduleItem" priority="0" />
+      <Item value="RemoveScheduleItem" priority="0" />
+      <Item value="CreateBlackoutDate" priority="0" />
+      <Item value="UpdateBlackoutDate" priority="0" />
+      <Item value="RemoveBlackoutDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.DataContext">
+      <Item value="SubmitChanges" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.BaptismScheduler.Util.KeyHelper">
+      <Item value="GetKey" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.FrameworkUtils.BLL.CacheManager">
+      <Item value="SaveObjectToCache" priority="0" />
+      <Item value="RemoveObjectFromCache" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Caching.Cache">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromMinutes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.CacheItemPriority">
+      <Item value="Normal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.Cache">
+      <Item value="NoAbsoluteExpiration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Arena.Custom.Cccev.FrameworkUtils.BLL.CacheHelper">
+      <Item value="GetTimeToLive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

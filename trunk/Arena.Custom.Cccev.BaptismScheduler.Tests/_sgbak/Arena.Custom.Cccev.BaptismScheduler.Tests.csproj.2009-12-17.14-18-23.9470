@@ -1,0 +1,94 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FC4F55C-C059-4EAF-B153-0D19FA1E7DF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Arena.Custom.Cccev.BaptismScheduler.Tests</RootNamespace>
+    <AssemblyName>Arena.Custom.Cccev.BaptismScheduler.Tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>%24/trunk/Arena.Custom.Cccev.Tests/Arena.Custom.Cccev.BaptismScheduler.Tests</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:SourceGear Vault Client</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Arena.Framework, Version=2009.1.100.21601, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Arena.Framework\Arena.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaptizerTests.cs" />
+    <Compile Include="BlackoutDateTests.cs" />
+    <Compile Include="Mocks\MockBaptizerRepository.cs" />
+    <Compile Include="Mocks\MockBlackoutDateRepository.cs" />
+    <Compile Include="Mocks\MockPersonFactory.cs" />
+    <Compile Include="Mocks\MockScheduleItemRepository.cs" />
+    <Compile Include="Mocks\MockScheduleRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleControllerTests.cs" />
+    <Compile Include="ScheduleItemControllerTests.cs" />
+    <Compile Include="ScheduleItemTests.cs" />
+    <Compile Include="ScheduleTests.cs" />
+    <Compile Include="Util\TestFactories.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Arena.Custom.Cccev\Arena.Custom.Cccev.BaptismScheduler\Arena.Custom.Cccev.BaptismScheduler.csproj">
+      <Project>{DD324CB5-29A7-41A2-80A6-FDC02B6D976C}</Project>
+      <Name>Arena.Custom.Cccev.BaptismScheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Arena.Custom.Cccev\Arena.Custom.Cccev.DataUtils\Arena.Custom.Cccev.DataUtils.csproj">
+      <Project>{652A7969-41E7-440A-9AA1-9A61D59C1973}</Project>
+      <Name>Arena.Custom.Cccev.DataUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Arena.Custom.Cccev\Arena.Custom.Cccev.FrameworkUtils\Arena.Custom.Cccev.FrameworkUtils.csproj">
+      <Project>{5E4542EB-C79E-4F07-B3F6-8200B234FDC8}</Project>
+      <Name>Arena.Custom.Cccev.FrameworkUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

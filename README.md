@@ -1,0 +1,1 @@
+This project gives Arena the additional functionality to schedule baptisms. It supports blacking out dates to dis-allow baptisms from being scheduled and has support for printable reports from Reporting Services.
